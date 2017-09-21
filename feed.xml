@@ -3,10 +3,26 @@
     <title>dp0613</title>
     <link href="http://devwebwithme.tk/feed.xml" rel="self" />
     <link href="http://devwebwithme.tk" />
-    <updated>1970-01-01T07:00:00+07:00</updated>
+    <updated>2017-09-21T18:59:00+07:00</updated>
     <author>
         <name>@dp0613</name>
     </author>
     <id>http://devwebwithme.tk</id>
 
+    <entry>
+        <title>Tập hợp bài viết dành cho người mới bắt đầu</title>
+        <author>
+            <name>@dp0613</name>
+        </author>
+        <link href="http://devwebwithme.tk/tap-hop-bai-viet-danh-cho-nguoi-moi-bat-dau.html"/>
+        <id>http://devwebwithme.tk/tap-hop-bai-viet-danh-cho-nguoi-moi-bat-dau.html</id>
+
+        <updated>2017-09-21T18:01:44+07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                aaaa&acirc;
+            ]]>
+        </content>
+    </entry>
 </feed>
