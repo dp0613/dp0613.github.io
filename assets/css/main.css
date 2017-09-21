@@ -298,7 +298,8 @@ legend {
 
 label {
   font-weight: 700;
-  margin: 0 1.06667rem 0.8rem 0; }
+  margin: 0 1.06667rem 0.8rem 0;
+  font-size: 0.7rem;  }
 
 option {
   font-weight: 400; }
