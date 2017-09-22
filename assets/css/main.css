@@ -247,7 +247,6 @@ button {
   padding: 0.8rem 1.6rem;
   vertical-align: middle;
   text-align: center;
-  text-transform: lowercase;
   -webkit-transition: all 0.24s ease;
   -o-transition: all 0.24s ease;
   transition: all 0.24s ease;
