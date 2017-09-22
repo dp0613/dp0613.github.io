@@ -314,11 +314,9 @@ textarea,
 select {
   background-color: #ffffff;
   border: 1px solid #d6d6d6;
-  border-radius: 50px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   outline: none;
-  padding: 0.53333rem 0.8rem;
-  width: 100%;
+  padding: 0.5rem;
   -webkit-transition: all 0.24s ease-out;
   -o-transition: all 0.24s ease-out;
   transition: all 0.24s ease-out;
