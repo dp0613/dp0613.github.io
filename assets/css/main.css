@@ -547,8 +547,7 @@ textarea {
       overflow: visible; } }
   .navbar__menu li {
     color: #343434;
-    padding: 0;
-    text-align: center; }
+    padding: 0; }
     @media all and (min-width: 56.25em) {
       .navbar__menu li {
         display: inline-block;
