@@ -508,7 +508,8 @@ textarea {
         font-size: 1.90672rem; } }
   @media all and (min-width: 56.25em) {
     .logo {
-      margin: 0; } }
+      margin: 0;
+	font-size:1.6rem	  } }
 
 /* Navigation ------------------------ */
 .navbar__menu {
