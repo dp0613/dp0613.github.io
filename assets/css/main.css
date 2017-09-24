@@ -578,7 +578,9 @@ textarea {
       .navbar__menu li a:hover:not(span),
       .navbar__menu li span:hover:not(span) {
         color: #3949ab; }
-
+	.navbar__submenu {
+		font-size: 0.8rem;
+	}
 @media all and (max-width: 56.1875em) {
   .navbar__submenu {
     margin: 0; } }
