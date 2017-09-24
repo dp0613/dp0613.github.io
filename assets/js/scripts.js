@@ -3,7 +3,12 @@
 	 * Hero Section
 	*/
 	$(function() {
-		$(".rslides").responsiveSlides();
+		$(".rslides").responsiveSlides({
+			auto: true,             // Boolean: Animate automatically, true or false
+			pager: true,           // Boolean: Show pager, true or false
+			pause: true,           // Boolean: Pause on hover, true or false
+			pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+		});
 	});
 
     /**
