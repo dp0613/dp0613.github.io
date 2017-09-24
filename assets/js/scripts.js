@@ -1,4 +1,11 @@
 (function($) {
+	/**
+	 * Hero Section
+	*/
+	$(function() {
+		$(".rslides").responsiveSlides();
+	});
+
     /**
      * Dropdown menu
      */
