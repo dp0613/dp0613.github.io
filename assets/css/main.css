@@ -502,7 +502,7 @@ textarea {
     font-size: 1.4729rem; }
     @media screen and (min-width: 20rem) {
       .logo {
-        font-size: calc(1.4729rem + 0.43382 * ((100vw - 20rem) / 113)); } }
+        font-size: 1rem } }
     @media screen and (min-width: 133rem) {
       .logo {
         font-size: 1.90672rem; } }
