@@ -534,7 +534,7 @@ textarea {
       -ms-transform: translateY(-5%);
       transform: translateY(-5%);
       width: 100%;
-      z-index: 1; }
+      z-index: 100; }
       .navbar__menu > li {
         -webkit-transition: all 0.3s ease-out;
         -o-transition: all 0.3s ease-out;
