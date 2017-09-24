@@ -30,22 +30,4 @@
   border: 0;
   }
   
-  .rslides_tabs li a {
-    display: inline-block;
-    background-color: #353535;
-    width: 1.6rem;
-    height: 1.6rem;
-    color: #fff;
-    font-size: 0.9rem;
-    line-height: 1.6rem;
-}
-
-.rslides_tabs, .rslides {
-    margin: 0;
-}
-
-.rslides_tabs li {
-    display: inline-block;
-    padding: 0;
-    margin-right: 0.3rem;
-}
+  
