@@ -35,13 +35,7 @@ textarea {
    ========================================================================== 
 */
 html {
-  font-size: 1rem; }
-  @media screen and (min-width: 20rem) {
-    html {
-      font-size: calc(1rem + 0.2 * ((100vw - 20rem) / 113)); } }
-  @media screen and (min-width: 133rem) {
-    html {
-      font-size: 1.2rem; } }
+  font-size: 1rem !important; }
 
 body {
   background: #ffffff;
@@ -94,57 +88,21 @@ h1 {
   margin: 0; }
   h1 {
     font-size: 1.67583rem; }
-    @media screen and (min-width: 20rem) {
-      h1 {
-        font-size: calc(1.67583rem + 0.4936 * ((100vw - 20rem) / 113)); } }
-    @media screen and (min-width: 133rem) {
-      h1 {
-        font-size: 2.16943rem; } }
 
 h2 {
   font-size: 1.29454rem; }
-  @media screen and (min-width: 20rem) {
-    h2 {
-      font-size: calc(1.29454rem + 0.27655 * ((100vw - 20rem) / 113)); } }
-  @media screen and (min-width: 133rem) {
-    h2 {
-      font-size: 1.57109rem; } }
 
 h3 {
   font-size: 1.13778rem; }
-  @media screen and (min-width: 20rem) {
-    h3 {
-      font-size: calc(1.13778rem + 0.24306 * ((100vw - 20rem) / 113)); } }
-  @media screen and (min-width: 133rem) {
-    h3 {
-      font-size: 1.38084rem; } }
 
 h4 {
   font-size: 1.06667rem; }
-  @media screen and (min-width: 20rem) {
-    h4 {
-      font-size: calc(1.06667rem + 0.14696 * ((100vw - 20rem) / 113)); } }
-  @media screen and (min-width: 133rem) {
-    h4 {
-      font-size: 1.21363rem; } }
 
 h5 {
   font-size: 0.9375rem; }
-  @media screen and (min-width: 20rem) {
-    h5 {
-      font-size: calc(0.9375rem + 0.12917 * ((100vw - 20rem) / 113)); } }
-  @media screen and (min-width: 133rem) {
-    h5 {
-      font-size: 1.06667rem; } }
 
 h6 {
   font-size: 0.87891rem; }
-  @media screen and (min-width: 20rem) {
-    h6 {
-      font-size: calc(0.87891rem + 0.12109 * ((100vw - 20rem) / 113)); } }
-  @media screen and (min-width: 133rem) {
-    h6 {
-      font-size: 1rem; } }
 
 h2 + p,
 h3 + p,
@@ -845,18 +803,7 @@ textarea {
       .article__title {
         font-size: 1.21363rem; } }
   .article__meta {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+    font-size: 0.9rem; }
     .article__meta__avatar {
       border-radius: 50%;
       height: 2.13333rem;
