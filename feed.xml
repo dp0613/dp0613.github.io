@@ -3,7 +3,7 @@
     <title>dev-web-with-me</title>
     <link href="http://devwebwithme.tk/feed.xml" rel="self" />
     <link href="http://devwebwithme.tk" />
-    <updated>2017-10-04T10:24:37+07:00</updated>
+    <updated>2017-10-04T10:35:24+07:00</updated>
     <author>
         <name>@dp0613</name>
     </author>
@@ -18,7 +18,7 @@
         <id>http://devwebwithme.tk/switch-va-if-else-if-khi-nao-va-o-dau-1506942139/</id>
             <category term="Kinh nghiệm"/>
 
-        <updated>2017-10-04T10:24:27+07:00</updated>
+        <updated>2017-10-04T10:30:40+07:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -115,13 +115,13 @@
 	if($a === 1)
 	{
 		//trường hợp 1
-	} elseif($a === 2)
+	} else if($a === 2)
 	{
 		//trường hợp 2
-	} elseif($a === 3)
+	} else if($a === 3)
 	{
 		//trường hợp 3
-	} elseif($a === 4)
+	} else if($a === 4)
 	{
 		//trường hợp 4
 	} else
@@ -186,7 +186,7 @@
 <pre><code class="language-php">
 &lt;?php 
 
-	switch(FALSE)
+	switch(TRUE)
 	{
 		case $foo == 'baz' &amp;&amp; $baz == 'foo':
 		case $foo == 'foo' &amp;&amp; $baz == 'baz':

@@ -1,4 +1,4 @@
-<!doctype html><html amp lang="en"><head><meta charset="utf-8"><title>switch case và if else: Liệu bạn có đang dùng búa để đóng tua vít? - /* Dev Web With Me */</title><meta name="robots" content="index, follow"><link rel="canonical" href="http://devwebwithme.tk/switch-va-if-else-if-khi-nao-va-o-dau-1506942139/"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css"><script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"http://devwebwithme.tk/amp/switch-va-if-else-if-khi-nao-va-o-dau-1506942139/"},"headline":"switch case và if else: Liệu bạn có đang dùng búa để đóng tua vít?","datePublished":"2017-10-02T17:58","dateModified":"2017-10-04T10:24","image":{"@type":"ImageObject","url":"http://devwebwithme.tk/media/posts/5/confused-880735_1280.jpg","height":853,"width":1280},"description":"L&agrave; một lập tr&igrave;nh vi&ecirc;n PHP th&igrave; tui c&oacute; niềm tin rằng bạn biết đến cấu tr&uacute;c switch...case v&agrave; if... else. Trong b&agrave;i viết n&agrave;y tui sẽ cố gắng ph&acirc;n t&iacute;ch xem khi n&agrave;o th&igrave; ch&uacute;ng ta d&ugrave;ng switch...case, khi n&agrave;o th&igrave; d&ugrave;ng if... else. Trước ti&ecirc;n, dưới đ&acirc;y l&agrave;&hellip;","author":{"@type":"Person","name":"@dp0613"},"publisher":{"@type":"Organization","name":"@dp0613"}}</script><style amp-custom="">body,
+<!doctype html><html amp lang="en"><head><meta charset="utf-8"><title>switch case và if else: Liệu bạn có đang dùng búa để đóng tua vít? - /* Dev Web With Me */</title><meta name="robots" content="index, follow"><link rel="canonical" href="http://devwebwithme.tk/switch-va-if-else-if-khi-nao-va-o-dau-1506942139/"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css"><script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"http://devwebwithme.tk/amp/switch-va-if-else-if-khi-nao-va-o-dau-1506942139/"},"headline":"switch case và if else: Liệu bạn có đang dùng búa để đóng tua vít?","datePublished":"2017-10-02T17:58","dateModified":"2017-10-04T10:30","image":{"@type":"ImageObject","url":"http://devwebwithme.tk/media/posts/5/confused-880735_1280.jpg","height":853,"width":1280},"description":"L&agrave; một lập tr&igrave;nh vi&ecirc;n PHP th&igrave; tui c&oacute; niềm tin rằng bạn biết đến cấu tr&uacute;c switch...case v&agrave; if... else. Trong b&agrave;i viết n&agrave;y tui sẽ cố gắng ph&acirc;n t&iacute;ch xem khi n&agrave;o th&igrave; ch&uacute;ng ta d&ugrave;ng switch...case, khi n&agrave;o th&igrave; d&ugrave;ng if... else. Trước ti&ecirc;n, dưới đ&acirc;y l&agrave;&hellip;","author":{"@type":"Person","name":"@dp0613"},"publisher":{"@type":"Organization","name":"@dp0613"}}</script><style amp-custom="">body,
 		div,
 		dl,
 		dt,
@@ -427,13 +427,13 @@
 	if($a === 1)
 	{
 		//trường hợp 1
-	} elseif($a === 2)
+	} else if($a === 2)
 	{
 		//trường hợp 2
-	} elseif($a === 3)
+	} else if($a === 3)
 	{
 		//trường hợp 3
-	} elseif($a === 4)
+	} else if($a === 4)
 	{
 		//trường hợp 4
 	} else
@@ -487,7 +487,7 @@
 </code></pre><p>&nbsp;Bạn thấy c&aacute;ch n&agrave;o dễ đọc hơn (tui c&oacute; niềm tin l&agrave; bạn hiểu hết cả 2 c&aacute;ch)?</p><p>Th&ecirc;m 1 v&iacute; dụ tương tự nh&eacute;:</p><pre><code class="language-php">
 &lt;?php 
 
-	switch(FALSE)
+	switch(TRUE)
 	{
 		case $foo == 'baz' &amp;&amp; $baz == 'foo':
 		case $foo == 'foo' &amp;&amp; $baz == 'baz':
