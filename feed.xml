@@ -3,7 +3,7 @@
     <title>dev-web-with-me</title>
     <link href="http://devwebwithme.tk/feed.xml" rel="self" />
     <link href="http://devwebwithme.tk" />
-    <updated>2017-10-04T10:35:24+07:00</updated>
+    <updated>2017-10-04T10:40:38+07:00</updated>
     <author>
         <name>@dp0613</name>
     </author>
@@ -18,7 +18,7 @@
         <id>http://devwebwithme.tk/switch-va-if-else-if-khi-nao-va-o-dau-1506942139/</id>
             <category term="Kinh nghiệm"/>
 
-        <updated>2017-10-04T10:30:40+07:00</updated>
+        <updated>2017-10-04T10:37:55+07:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -162,7 +162,7 @@
 </code></pre>
 <p>Nếu so s&aacute;nh như kiểu ở tr&ecirc;n, bạn sẽ dễ d&agrave;ng nhận ra được khi d&ugrave;ng <code>switch</code> th&igrave; h&agrave;m <code>myFunc()</code> chỉ được gọi 1 lần, c&ograve;n khi d&ugrave;ng&nbsp;<code>if</code> l&agrave; <span style="text-decoration: line-through;">mấy tỉ</span> 2 lần.</p>
 <blockquote><strong>Kết luận:</strong> D&ugrave;ng <code>switch</code> khi bạn muốn so s&aacute;nh với gi&aacute; trị trả về từ 1 h&agrave;m.</blockquote>
-<p>&nbsp;V&iacute; dụ 3: Khi điều kiện qu&aacute; phức tạp</p>
+<p><em><strong>&nbsp;V&iacute; dụ 3: Khi điều kiện qu&aacute; phức tạp</strong></em></p>
 <pre><code class="language-php">
 &lt;?php 
 	switch(TRUE)
