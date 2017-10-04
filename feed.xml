@@ -3,7 +3,7 @@
     <title>dev-web-with-me</title>
     <link href="http://devwebwithme.tk/feed.xml" rel="self" />
     <link href="http://devwebwithme.tk" />
-    <updated>2017-10-04T10:18:43+07:00</updated>
+    <updated>2017-10-04T10:24:37+07:00</updated>
     <author>
         <name>@dp0613</name>
     </author>
@@ -18,7 +18,7 @@
         <id>http://devwebwithme.tk/switch-va-if-else-if-khi-nao-va-o-dau-1506942139/</id>
             <category term="Kinh nghiệm"/>
 
-        <updated>2017-10-04T10:14:01+07:00</updated>
+        <updated>2017-10-04T10:24:27+07:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -133,7 +133,7 @@
 <p>Bạn thấy g&igrave; chưa? Vẫn c&ograve;n chưa thấy &agrave;? Khi d&ugrave;ng <code>switch</code> th&igrave; calo của bạn sẽ đỡ tốn hơn đấy, c&ograve;n khi d&ugrave;ng <code>if</code> v&agrave; rồi <code>elseif</code> v&agrave; <code>elseif</code> một lần nữa... &ocirc;i! l&uacute;c đ&oacute; tui đảm bảo n&atilde;o của bạn sẽ n&oacute;ng l&ecirc;n. C&oacute; 1 b&iacute; mật của tui m&agrave; rất nhục khi người kh&aacute;c biết l&agrave; tui lu&ocirc;n viết <code>else</code> th&agrave;nh <code>esle</code>, v&agrave; n&atilde;y giờ khi viết b&agrave;i n&agrave;y tui đ&atilde; sửa n&oacute; được mấy lần rồi đ&oacute; :fire: .</p>
 <blockquote><strong>Kết luận:</strong> D&ugrave;ng <code>switch</code> khi c&oacute; từ 2 trường hợp trở l&ecirc;n.</blockquote>
 <p><em><strong>V&iacute; dụ 2: Khi so s&aacute;nh với gi&aacute; trị trả về từ 1 h&agrave;m n&agrave;o đ&oacute;</strong></em></p>
-<pre><code class="">
+<pre><code class="language-php">
 &lt;?php 
 	switch(myFunc())
 	{
