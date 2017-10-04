@@ -118,11 +118,9 @@ strong {
 blockquote {
   font-family: sans-serif;
   font-size: 1rem;
-  letter-spacing: 2px;
   padding: 3% 5%; 
   border-left: 6px solid #4267B2;
-  background-color: #ddd;
-  margin-left: 5%;}
+  background-color: #f8f8f8;}
   
   blockquote > :nth-child(1) {
     margin-top: 0; }
