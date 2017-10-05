@@ -1,17 +1,6 @@
 /**
  * Comment box
  */
-// Initialize Firebase
-var config = {
-	apiKey: "AIzaSyBSQ4FWB5zxIP25qDLvY955QXcsnM8XHVc",
-	authDomain: "dev-web-with-me.firebaseapp.com",
-	databaseURL: "https://dev-web-with-me.firebaseio.com",
-	projectId: "dev-web-with-me",
-	storageBucket: "",
-	messagingSenderId: "348013493597"
-};
-firebase.initializeApp(config);
-
 let provider = new firebase.auth.GoogleAuthProvider();
 let auth = firebase.auth();
 let currentUser = null;
