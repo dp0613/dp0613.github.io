@@ -1213,8 +1213,9 @@ textarea {
     padding-top: calc(1.86667rem + 0.5vw);
     text-align: center;
 }
-.comments-box > h3 {
+.comments-box > span {
     margin-bottom: calc(1.86667rem + 0.5vw);
+	font-weight: 700;
 }
 .comments {
   margin-top: 30px;
