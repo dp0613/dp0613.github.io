@@ -1283,6 +1283,7 @@ textarea {
 }
 .comments .comment-list {
   list-style: none;
+  font-family: "courier new";
 }
 .comments .comment-list li {
   display: flex;
@@ -1297,11 +1298,11 @@ textarea {
   width: 32px; height: 32px;
   border-radius: 3px;
   overflow: hidden;
-  padding: 8px;
 }
 .comments .comment-list li .comment {
-  flex: 1;
   margin-left: 5px;
+  text-align: left;
+  padding: 0;
 }
 .comments .comment-list li .comment .metadata {
   font-size: 0.9rem;
