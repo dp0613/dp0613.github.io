@@ -1208,13 +1208,107 @@ textarea {
 }
 /* Comments ------------------------ */
 
-.comments {
+.comments-box {
     border-top: 1px solid #e3e3e3;
     padding-top: calc(1.86667rem + 0.5vw);
     text-align: center;
 }
-.comments > h3 {
+.comments-box > h3 {
     margin-bottom: calc(1.86667rem + 0.5vw);
+}
+.comments {
+  margin-top: 30px;
+}
+.loading {
+  padding: 30px;
+  background: url(../img/loading.gif) no-repeat center center;
+  display: block;
+}
+.comments .login {
+  display: none;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  background: #FAFAFA;
+  line-height: 32px;
+}
+.comments .login button {
+  background: #3498db;
+  border: none;
+  border-radius: 3px;
+  padding: 3px 5px;
+  color: #FFF;
+  font-size: 1.0em;
+  cursor: pointer;
+}
+.comments .comment-input {
+  margin-top: 10px;
+  display: none;
+  flex-direction: row;
+}
+.comments .comment-input .avatar {
+  flex-basis: 32px;
+  width: 32px; height: 32px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.comments .comment-input .input {
+  flex: 1;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.comments .comment-input .input textarea {
+  padding: 5px;
+  outline: none;
+  font-size: 1.0em;
+  border: 1px solid #CCC;
+  resize: none;
+  border-radius: 3px;
+  min-height: 50px;
+  max-height: 120px;
+}
+.comments .comment-input .input span {
+  flex-basis: 14px;
+  font-size: 0.8em;
+  margin-top: 5px;
+  text-align: right;
+  color: #555;
+}
+.comments .comment-input .input span kbd {
+  background: #FAFAFA;
+  padding: 3px;
+}
+.comments .comment-list {
+  margin: 0; padding: 0;
+  list-style: none;
+}
+.comments .comment-list li {
+  display: flex;
+  flex-direction: row;
+}
+.comments .comment-list li:before {
+  display: none;
+  content: "";
+}
+.comments .comment-list li .avatar {
+  flex-basis: 32px;
+  width: 32px; height: 32px;
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 8px;
+}
+.comments .comment-list li .comment {
+  flex: 1;
+  margin-left: 5px;
+}
+.comments .comment-list li .comment .metadata {
+  font-size: 0.9em;
+  color: #888;
+}
+.comments .comment-list li .comment .metadata b {
+  color: #000;
 }
 /* Author page  ------------------------ */
 
