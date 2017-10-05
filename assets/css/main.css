@@ -1282,12 +1282,14 @@ textarea {
   padding: 3px;
 }
 .comments .comment-list {
+  margin: 0; padding: 0;
   list-style: none;
   font-family: "courier new";
 }
 .comments .comment-list li {
   display: flex;
   flex-direction: row;
+  margin-bottom: 1rem;
 }
 .comments .comment-list li:before {
   display: none;
