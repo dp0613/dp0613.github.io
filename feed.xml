@@ -3,7 +3,7 @@
     <title>dev-web-with-me</title>
     <link href="http://devwebwithme.tk/feed.xml" rel="self" />
     <link href="http://devwebwithme.tk" />
-    <updated>2017-10-05T15:09:01+07:00</updated>
+    <updated>2017-10-05T15:56:03+07:00</updated>
     <author>
         <name>@dp0613</name>
     </author>
@@ -18,11 +18,11 @@
         <id>http://devwebwithme.tk/persistence-connection-mysql/</id>
             <category term="Kinh nghiệm"/>
 
-        <updated>2017-10-05T15:08:33+07:00</updated>
+        <updated>2017-10-05T15:54:59+07:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="http://devwebwithme.tk/media/posts/6/circuit-158374_640.png" alt="" />
+                    <img src="http://devwebwithme.tk/media/posts/6/system-2660914_1280.jpg" alt="" />
                 <p>Đ&acirc;y l&agrave; vấn đề được đề cập đến ở một c&acirc;u hỏi của <a href="https://stackoverflow.com/questions/50303/persistent-db-connections-yea-or-nay" target="_blank" rel="noopener noreferrer">StackOverFlow.com</a>. T&ocirc;i muốn tr&igrave;nh b&agrave;y th&ecirc;m một v&agrave;i quan điểm của m&igrave;nh trong việc sử dụng loại "Kết nối li&ecirc;n tục - persistent connection" trong MySQL.</p>
 <h4>Định nghĩa</h4>
 <p>Kết nối li&ecirc;n tục đ&uacute;ng như t&ecirc;n gọi của n&oacute;, được giữ diễn ra li&ecirc;n tục, n&oacute; kh&ocirc;ng bị ngắt khi chuỗi truy vấn được thực thi xong. Trước khi thực hiện 1 kết nối li&ecirc;n tục đến m&aacute;y chủ, PHP sẽ kiểm tra xem c&oacute; tồn tại kết nối n&agrave;o được tạo trước đ&oacute; kh&ocirc;ng. Nếu c&oacute; PHP sẽ sử dụng kết nối đ&atilde; tạo đ&oacute;, nếu kh&ocirc;ng th&igrave; mới tiến h&agrave;nh tạo 1 kết nối mới.</p>
