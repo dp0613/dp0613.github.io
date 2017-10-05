@@ -1282,7 +1282,6 @@ textarea {
   padding: 3px;
 }
 .comments .comment-list {
-  margin: 0; padding: 0;
   list-style: none;
 }
 .comments .comment-list li {
@@ -1305,7 +1304,7 @@ textarea {
   margin-left: 5px;
 }
 .comments .comment-list li .comment .metadata {
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: #888;
 }
 .comments .comment-list li .comment .metadata b {
