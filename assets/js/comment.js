@@ -30,7 +30,7 @@ const autoSizing = function(element) {
 
 const login = function() {
 	auth.signInWithPopup(provider)
-		.then(function(result) {}).catch(function(err) {
+		.then(function(result) {}).catch(function(error) {
 			var errorCode = error.code;
 			var errorMessage = error.message;
 			console.log(errorCode + ':' + errorMessage);
