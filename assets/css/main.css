@@ -778,6 +778,29 @@ textarea {
 .sidebar input + input {
     margin-top: 0.53333rem;
 }
+
+.box {
+    margin-bottom: -webkit-calc(3.2rem + 1vw);
+    margin-bottom: calc(3.2rem + 1vw);
+}
+.box--gray {
+    background: #f7f7f8;
+    padding: -webkit-calc(1.86667rem + 0.5vw);
+    padding: calc(1.86667rem + 0.5vw);
+}
+.box--gray > .box__title {
+    border-top: none;
+    padding-top: 0;
+}
+.box__title {
+    color: #3949ab;
+    margin: 0 0 -webkit-calc(1.86667rem + 0.5vw);
+    margin: 0 0 calc(1.86667rem + 0.5vw);
+}
+.box ul {
+    margin-left: 0;
+}
+
 .owner {
     text-align: center;
 }
@@ -999,12 +1022,14 @@ textarea {
 .post__footer {
     margin-top: calc(1.86667rem + 0.5vw);
 }
-.box {
+.post__footer__box {
     margin-bottom: 1rem;
 }
-.box__title {
+.post__footer__box__title {
     font-weight: 700;
     margin-right: 1rem;
+	display: inline-block;
+	width: 7rem;
 }
 .post__last-updated {
     color: #908e98;
