@@ -11,7 +11,7 @@
     <link rel="amphtml" href="http://devwebwithme.tk/amp/persistence-connection-mysql/">
     <link type="application/atom+xml" rel="alternate" href="http://devwebwithme.tk/feed.xml"/>
     <meta property="og:title" content="Kết nối liên tục - persistent connection trong MySQL" /><meta property="og:image" content="http://devwebwithme.tk/media/posts/6/system-2660914_1280.jpg"/><meta property="og:site_name" content="My blog - /* Dev Web With Me */" /><meta property="og:description" content="" />
-     <link rel="stylesheet" href="http://devwebwithme.tk/assets/css/style.css?v&#x3D;66f04f0363293caf08867302975fe67c">
+     <link rel="stylesheet" href="http://devwebwithme.tk/assets/css/style.css?v&#x3D;91716ae6cafb7860c0058a05e4ae57c3">
      <link rel="stylesheet" href="http://devwebwithme.tk/assets/css/responsiveslides.css?v&#x3D;895ebaa8b26d099f10a16526ba78f510">
      <link rel="stylesheet" href="http://devwebwithme.tk/assets/css/prism.css?v&#x3D;b1dda787b1a9954b1b6b1cccea7f81cf">
     <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"http://devwebwithme.tk/persistence-connection-mysql/"},"headline":"Kết nối liên tục - persistent connection trong MySQL","datePublished":"2017-10-04T14:34","dateModified":"2017-10-05T15:54","image":{"@type":"ImageObject","url":"http://devwebwithme.tk/media/posts/6/system-2660914_1280.jpg","height":853,"width":1280},"description":"Đ&acirc;y l&agrave; vấn đề được đề cập đến ở một c&acirc;u hỏi của StackOverFlow.com. T&ocirc;i muốn tr&igrave;nh b&agrave;y th&ecirc;m một v&agrave;i quan điểm của m&igrave;nh trong việc sử dụng loại&hellip;","author":{"@type":"Person","name":"@dp0613"},"publisher":{"@type":"Organization","name":"@dp0613"}}</script>
@@ -300,7 +300,7 @@
 
                                 <div class="post__related post__footer__box">
                                     <span class="post__footer__box__title">
-                                        Có thể bạn sẽ thích: 
+                                        Xem thêm:
                                     </span>
                                     <div class="post__related__wrap">
                                             <figure>
@@ -325,39 +325,25 @@
                 <span class="post__footer__post__footer__box__title">
                     Thảo luận
                 </span>
-                    <div id="disqus_thread"></div>
-                    <script>
-                        var disqus_config = function () {
-                            this.page.url = 'http://devwebwithme.tk/persistence-connection-mysql/';
-                            this.page.title = ' Kết nối liên tục - persistent connection trong MySQL - /* Dev Web With Me */ ';
-                        };
-                
-                        var disqus_loaded = false;
-                        function publiiLoadDisqus() {
-                            if(disqus_loaded) {
-                                return false;
-                            }
-                
-                            var top = document.getElementById('disqus_thread').offsetTop;
-                
-                            if (!disqus_loaded && (window.scrollY || window.pageYOffset) + window.innerHeight > top) {
-                                disqus_loaded = true;
-                
-                                (function () {
-                                    var d = document, s = d.createElement('script');
-                                    s.src = '//dp0613.disqus.com/embed.js';
-                                    s.setAttribute('data-timestamp', +new Date());
-                                    (d.head || d.body).appendChild(s);
-                                })();
-                            }
-                        }
-                
-                        publiiLoadDisqus();
-                        window.onscroll = function() {
-                            publiiLoadDisqus();
-                        };
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+                <!-- Comment -->
+                <div class="comments">
+                  <div id="comment-loading" class="loading"></div>
+                  <div id="login-box" class="login">
+                    Bạn nghĩ như thế nào về bài viết này?<br/><button onclick="login()">Tham gia bình luận</button>
+                    <div class="copyright">Chức năng này cần liên kết với tài khoản Google</div>
+                  </div>
+                  <div id="comment-box" class="comment-input">
+                    <div class="avatar">
+                      <img id="user-avatar" src="" width="32" height="32"/>
+                    </div>
+                    <div class="input">
+                      <textarea id="comment-content" onkeyup="autoSizing(this)" onkeydown="submitComment(event)" placeholder="Comment gõ vào đây :D"></textarea>
+                      <span>Gõ xong nhấn <kbd>Ctrl</kbd> + <kbd>Enter</kbd> để gửi.</span>
+                    </div>
+                  </div>
+                  <ul id="comment-list" class="comment-list"></ul>
+                </div>
+                <!-- End Comment -->
             </div>
         
     </main>
@@ -439,7 +425,8 @@
     </div>
 
     <script defer src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" aria-dropeffect="" crossorigin="anonymous"></script>
-    <script defer src="http://devwebwithme.tk/assets/js/scripts.min.js?v&#x3D;dcda9dc754c0f24cd97bf12f3cc39a88"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+	<script defer src="http://devwebwithme.tk/assets/js/scripts.min.js?v&#x3D;dcda9dc754c0f24cd97bf12f3cc39a88"></script>
     <script defer src="http://devwebwithme.tk/assets/js/prism.js?v&#x3D;a52070c22521d42a4b1216d83b44f037"></script>
     <script defer src="http://devwebwithme.tk/assets/js/responsiveslides.min.js?v&#x3D;e0289984dca27448c5d08ed905598c4a"></script>
 
