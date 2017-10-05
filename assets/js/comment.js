@@ -32,6 +32,13 @@ auth.onAuthStateChanged(function(user) {
 	}
 });
 
+const autoSizing = function(element) {
+  if (element.scrollHeight > 50) {
+    element.style.height = "5px";
+    element.style.height = (element.scrollHeight+10) + "px";
+  }
+};
+
 const login = function() {
 	auth.signInWithPopup(provider)
 		.then(function(result) {}).catch(function(err) {});
@@ -78,7 +85,7 @@ const addNewComment = function(user, avatar, time, comment) {
 		' </div>' +
 		'<div class="comment">' +
 		'  <div class="metadata"><b>' + user + '</b> lúc <span>' + commentTime + '</span></div>' +
-		'  <div class="content">' + commentFiltered '  </div>' +
+		'  <div class="content">' + commentFiltered + '  </div>' +
 		'</div>';
 	let li = document.createElement('li');
 	li.innerHTML = html;
