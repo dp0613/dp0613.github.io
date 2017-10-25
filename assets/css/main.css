@@ -947,10 +947,6 @@ textarea {
 }
 /* Article  ------------------------ */
 
-.post {
-    border-top: 3px solid #343434;
-    padding-top: calc(1.86667rem + 0.5vw);
-}
 .post__meta {
     margin: calc(1.06667rem + 0.25vw) 0 0 0;
 }
