@@ -907,11 +907,6 @@ textarea {
     margin-top: 1.6rem;
 }
 /* Category  ------------------------ */
-
-.page-header {
-    border-top: 3px solid #343434;
-    padding-top: calc(1.86667rem + 0.5vw);
-}
 .page-header__title {
     color: #3949ab;
 }
@@ -950,6 +945,7 @@ textarea {
 .post__meta {
     margin: calc(1.06667rem + 0.25vw) 0 0 0;
 }
+
 .post__meta > li {
     display: inline-block;
     list-style: none;
