@@ -3,7 +3,7 @@
     <title>dev-web-with-me</title>
     <link href="http://devwebwithme.tk/feed.xml" rel="self" />
     <link href="http://devwebwithme.tk" />
-    <updated>2017-11-05T08:53:30+07:00</updated>
+    <updated>2017-11-05T09:10:51+07:00</updated>
     <author>
         <name>@dp0613</name>
     </author>
@@ -48,7 +48,7 @@
         <id>http://devwebwithme.tk/nen-hay-khong-ghi-chu-code-khong-dung/</id>
             <category term="Kinh nghiệm"/>
 
-        <updated>2017-11-05T08:53:16+07:00</updated>
+        <updated>2017-11-05T09:10:14+07:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -56,7 +56,7 @@
                 <h3>Chuyện ba ng&agrave;y mưa</h3>
 <p>Mấy ng&agrave;y nay tui bị sa v&agrave;o chiến trường NodeJS v&agrave; AngularJS... Chẳng l&agrave; đang tham gia v&agrave;o một dự &aacute;n outsource cho 1 c&ocirc;ng ty của nước ngo&agrave;i (h&igrave;nh như l&agrave; Mỹ).</p>
 <p>C&ocirc;ng việc l&agrave; l&agrave;m lại hệ thống sẵn c&oacute; của họ, hay n&oacute;i thẳng ra l&agrave; "tạo ra bug mới tr&ecirc;n bug cũ...", hệ thống d&ugrave;ng AngularJS, SASS, Jade để l&agrave;m frontend. NodeJS, Laravel v&agrave; Postgres để xử l&yacute; API (nghe th&ocirc;i &nbsp;l&agrave; muốn&nbsp;<span style="text-decoration: line-through;">tuột quần</span> t&eacute; xỉu).</p>
-<figure class="post__image undefined" contenteditable="false"><img src="http://devwebwithme.tk/media/posts/11/22550388_1657047427668142_4685091446118958224_o.jpg" alt="" width="829" height="1206">
+<figure class="post__image post__image--center" contenteditable="false"><img src="http://devwebwithme.tk/media/posts/11/22550388_1657047427668142_4685091446118958224_o.jpg" width="829" height="1206">
 <figcaption contenteditable="true">Giữ lại code cũ, t&igrave;nh y&ecirc;u hay dại khờ?</figcaption>
 </figure>
 <h3>Khi n&agrave;o?</h3>
