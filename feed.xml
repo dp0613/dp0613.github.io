@@ -3,7 +3,7 @@
     <title>dp0613</title>
     <link href="http://dp0613.tk/feed.xml" rel="self" />
     <link href="http://dp0613.tk" />
-    <updated>2018-09-12T21:14:21+07:00</updated>
+    <updated>2018-09-12T21:21:46+07:00</updated>
     <author>
         <name>dp0613</name>
     </author>
@@ -351,12 +351,12 @@ $ vagrant ssh #Login vào máy chủ bằng SSH
         <author>
             <name>dp0613</name>
         </author>
-        <link href="http://dp0613.tk/Giu-lai-code-cu-tinh-yeu-hay-dai-kho/"/>
-        <id>http://dp0613.tk/Giu-lai-code-cu-tinh-yeu-hay-dai-kho/</id>
+        <link href="http://dp0613.tk/giu-lai-code-cu-tinh-yeu-hay-dai-kho/"/>
+        <id>http://dp0613.tk/giu-lai-code-cu-tinh-yeu-hay-dai-kho/</id>
             <category term="performance"/>
             <category term="Lung tung"/>
 
-        <updated>2018-09-09T17:05:06+07:00</updated>
+        <updated>2018-09-12T21:21:24+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="http://dp0613.tk/media/posts/3/0a23b0fe314f82e9d8760c95104ddffe331551ef-lg.jpg" alt="Giữ lại code cũ - tình yêu hay dại khờ?" />
@@ -369,9 +369,6 @@ $ vagrant ssh #Login vào máy chủ bằng SSH
                 <h3>Chuyện ba ngày mưa</h3>
 <p>Mấy ngày nay tui bị sa vào chiến trường NodeJS và AngularJS... Chẳng là đang tham gia vào một dự án outsource cho 1 công ty của nước ngoài (hình như là Mỹ).</p>
 <p>Công việc là làm lại hệ thống sẵn có của họ, hay nói thẳng ra là "tạo ra bug mới trên bug cũ...", hệ thống dùng AngularJS, SASS, Jade để làm frontend. NodeJS, Laravel và Postgres để xử lý API (nghe thôi  là muốn <span style="text-decoration: line-through;">tuột quần</span> té xỉu).</p>
-<figure class="post__image post__image--center"><img src="http://devwebwithme.tk/media/posts/11/22550388_1657047427668142_4685091446118958224_o.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="http://devwebwithme.tk/media/posts/11/responsive/22550388_1657047427668142_4685091446118958224_o-xs.jpg 300w, http://devwebwithme.tk/media/posts/11/responsive/22550388_1657047427668142_4685091446118958224_o-sm.jpg 480w, http://devwebwithme.tk/media/posts/11/responsive/22550388_1657047427668142_4685091446118958224_o-md.jpg 768w" width="829" height="1206">
-<figcaption>Giữ lại code cũ, tình yêu hay dại khờ?</figcaption>
-</figure>
 <h3>Khi nào?</h3>
 <p>Việc giữ lại code cũ là việc thường xuyên xảy ra ở những công ty startup. Các ngài ấy luôn phải đưa ra quyết định, đặc biệt là vào những lúc sau:</p>
 <ul>
