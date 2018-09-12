@@ -1,0 +1,72 @@
+<!DOCTYPE html><html lang="vi"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Javascript Object - Bạn đã gán biến đúng chưa?</title><meta name="description" content="Javascript Object - Bạn đã gán biến đúng chưa?"><meta name="robots" content="index, follow"><link rel="canonical" href="http://dp0613.tk/javascript-object-ban-da-gan-bien-dung-chua/"><link rel="amphtml" href="http://dp0613.tk/amp/javascript-object-ban-da-gan-bien-dung-chua/"><link type="application/atom+xml" rel="alternate" href="http://dp0613.tk/feed.xml"><link rel="shortcut icon" href="http://dp0613.tk/media/website/dp0613.png" type="image/png"><link rel="stylesheet" href="http://dp0613.tk/assets/css/style.css?v=c609d604fae0624c4f2bc0ca3c740889"><link rel="stylesheet" href="http://dp0613.tk/assets/css/prism.css?v=147995b9e817e37b603341dbaca09e16"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"http://dp0613.tk/javascript-object-ban-da-gan-bien-dung-chua/"},"headline":"Javascript Object - Bạn đã gán biến đúng chưa?","datePublished":"2018-09-09T17:01","dateModified":"2018-09-09T17:01","image":{"@type":"ImageObject","url":"http://dp0613.tk/media/posts/1/objects-lg.png","height":327,"width":300},"description":"Khi làm việc với JS ai cũng phải ít nhất 1 lần chạm tới object. Bên dưới tui khai báo một object như sau: var myObject = { 'first_key': 'first&hellip;","author":{"@type":"Person","name":"dp0613"},"publisher":{"@type":"Organization","name":"dp0613"}}</script></head><body><div class="container"><header class="top"><a class="logo" href="http://dp0613.tk">dp0613</a><nav class="navbar js-navbar"><button class="navbar__toggle js-navbar__toggle">Menu</button><ul class="navbar__menu"><li><a href="http://dp0613.tk/" title="Trang chủ">Trang chủ</a></li><li class="has-submenu"><span title="Làm web">Làm web</span><ul class="navbar__submenu"><li><a href="http://dp0613.tk/tags/php/" title="PHP">PHP</a></li><li><a href="http://dp0613.tk/tags/css/" title="CSS">CSS</a></li><li><a href="http://dp0613.tk/tags/js/" title="JS">JS</a></li><li><a href="http://dp0613.tk/tags/mysql/" title="MySQL">MySQL</a></li><li><a href="http://dp0613.tk/tags/performance/" title="Hiệu năng">Hiệu năng</a></li><li><a href="http://dp0613.tk/tags/security/" title="Bảo mật">Bảo mật</a></li></ul></li><li><a href="http://dp0613.tk/tags/lung-tung/" title="Lung tung">Lung tung</a></li><li><a href="http://dp0613.tk/tags/du-an/" title="Dự án">Dự án</a></li><li><a href="http://dp0613.tk/authors/dp0613/" title="Về @dp0613">Về tui</a></li><li class="donate-btn"><a href="http://dp0613.tk/ung-ho-tui/" title="Ủng hộ tui">Ủng hộ tui</a></li></ul></nav></header><main class="main main--full"><article class="post"><header><h1>Javascript Object - Bạn đã gán biến đúng chưa?</h1><p class="post__meta u-small">/* Viết bởi <a href="http://dp0613.tk/authors/dp0613/" rel="author" title="dp0613">dp0613</a> vào <time datetime="2018-09-09T17:01">09/09/2018 </time>*/</p><figure><img src="http://dp0613.tk/media/posts/1/objects-lg.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="http://dp0613.tk/media/posts/1/responsive/objects-lg-xs.png 300w, http://dp0613.tk/media/posts/1/responsive/objects-lg-sm.png 480w, http://dp0613.tk/media/posts/1/responsive/objects-lg-md.png 768w, http://dp0613.tk/media/posts/1/responsive/objects-lg-lg.png 1024w" alt="Javascript Object - Bạn đã gán biến đúng chưa?"><figcaption>Javascript Object - Bạn đã biến đúng chưa? (Hình ảnh từ tensor-programming.com)</figcaption></figure></header><div class="post__entry"><p>Khi làm việc với JS ai cũng phải ít nhất 1 lần chạm tới object. Bên dưới tui khai báo một object như sau:</p><pre><code class="language-javascript">
+  var myObject = {
+  	'first_key': 'first value',
+    'second_key': 'second value',
+    'third_key': 'third value',
+  };</code></pre><h3>Khi một object bằng 1 object khác</h3><p>Ví dụ tui có 1 object có tên là Hoa quả. Object Hoa quả này hiện chưa có gì cả. Lại có 1 object khác có tên là Chuối. Tui muốn Hoa quả sẽ nhận tất cả các phần tử của Chuối làm con. Như vậy ta có code như sau:</p><pre><code class="language-javascript">
+var fruits = [];
+var bananas = [
+	{
+  		'name': 'Vietnamese Bananas',
+  		'size': '18cm'
+  	},
+  	{
+  		'name': 'African Bananas',
+  		'size': '25cm'
+  	},
+  	{
+  		'name': 'American Bananas',
+  		'size': '23cm'
+  	}
+];
+
+fruits = bananas;
+</code></pre><p> Và kết quả như sau:</p><figure class="post__image--center"><img src="http://devwebwithme.tk/media/posts/14/Untitled.png" data-is-external-image="true" sizes="(max-width: 48em) 100vw, 768px" srcset="http://devwebwithme.tk/media/posts/14/responsive/Untitled-xs.png 300w, http://devwebwithme.tk/media/posts/14/responsive/Untitled-sm.png 480w, http://devwebwithme.tk/media/posts/14/responsive/Untitled-md.png 768w" alt="" width="410" height="82"></figure><p>Bây giờ chúng ta thử thay đổi object Chuối:</p><pre><code class="language-javascript">
+bananas[0]['name'] = "Another banana"; //Empty bananas
+console.log('fruits', fruits);
+</code></pre><p> Kết quả như sau:</p><figure class="post__image--center"><img src="http://devwebwithme.tk/media/posts/14/1.png" data-is-external-image="true" sizes="(max-width: 48em) 100vw, 768px" srcset="http://devwebwithme.tk/media/posts/14/responsive/1-xs.png 300w, http://devwebwithme.tk/media/posts/14/responsive/1-sm.png 480w, http://devwebwithme.tk/media/posts/14/responsive/1-md.png 768w" alt="" width="380" height="81"></figure><p>Lúc này object Hoa quả đã thay đổi. Mặc dù tui chưa đụng chạm gì tới nó cả. Đây chính là một lỗi mà hay gặp khi muốn dùng object Hoa quả để cache. Rõ ràng khi dùng với mục đích này, bạn muốn dữ liệu được lưu lại vào object Hoa quả, sợ bị thay đổi trong quá trình tính toán. Vậy mà ... </p><h3>Bạn đã làm sai ngay từ đầu</h3><p>Nhìn lại dòng code này </p><pre><code class="language-javascript">fruits = bananas;</code></pre><p>Dòng code tưởng chừng ai cũng hiểu này chính là cái sai ngay từ đầu của bạn. Để hiểu đúng nó, bạn phải hiểu được <a title="Javascript Object - Thừa kế và kế thừa" href="http://devwebwithme.tk/huong-dan/javascript-object-thua-ke-va-ke-thua">inherit trong JS</a>. Nó không đơn giản là gán <code>fruits</code> bằng <code>bananas</code> mà là nói với trình duyệt rằng <code>fruits</code> sẽ đồng bệnh tương lân với <code>bananas</code> cho dù có bao nhiêu sóng gió xảy ra, chúng vẫn giống nhau. ::SML::</p><h3>Và cách làm đúng</h3><p>Nhiêu đó đủ sến súa rồi, giờ vào vấn đề chính nhé, nãy giờ chỉ là mở bài thôi. Xét đoạn code bên dưới:</p><pre><code class="language-javascript">var fruits = [];
+var bananas = [
+	{
+  		'name': 'Vietnamese Bananas',
+  		'size': '18cm'
+  	},
+  	{
+  		'name': 'African Bananas',
+  		'size': '25cm'
+  	},
+  	{
+  		'name': 'American Bananas',
+  		'size': '23cm'
+  	}
+];
+
+fruits = JSON.parse(JSON.stringify(bananas));
+
+console.log('fruits', fruits);</code></pre><p> Và kết quả như sau:</p><figure class="post__image--center"><img src="http://devwebwithme.tk/media/posts/14/3.png" data-is-external-image="true" sizes="(max-width: 48em) 100vw, 768px" srcset="http://devwebwithme.tk/media/posts/14/responsive/3-xs.png 300w, http://devwebwithme.tk/media/posts/14/responsive/3-sm.png 480w, http://devwebwithme.tk/media/posts/14/responsive/3-md.png 768w" alt="" width="394" height="68"></figure><p> Thử thay đổi object Chuối như sau:</p><pre><code class="language-javascript">
+bananas[0]['name'] = "Another banana"; //Empty bananas
+console.log('fruits', fruits);</code></pre><p> Và kết quả:</p><p> </p><figure class="post__image--center"><img src="http://devwebwithme.tk/media/posts/14/3.png" data-is-external-image="true" sizes="(max-width: 48em) 100vw, 768px" srcset="http://devwebwithme.tk/media/posts/14/responsive/3-xs.png 300w, http://devwebwithme.tk/media/posts/14/responsive/3-sm.png 480w, http://devwebwithme.tk/media/posts/14/responsive/3-md.png 768w" alt="" width="394" height="68"></figure><p>Bingo! </p><p>Định nói thêm mà không biết nói gì, nói chung là hết rồi. Muốn bàn luận gì thì cứ tranh thủ nhé.</p></div><footer class="post__footer"><div class="post__share box"><h3 class="box__title">Chia sẻ:</h3><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdp0613.tk%2Fjavascript-object-ban-da-gan-bien-dung-chua%2F" class="js-share facebook" title="Chia sẻ với Facebook" rel="nofollow"><svg class="u-icon" aria-hidden="true"><use xlink:href="http://dp0613.tk/assets/svg/svg-map.svg#facebook"/></svg> Facebook </a><a href="https://twitter.com/share?url=http%3A%2F%2Fdp0613.tk%2Fjavascript-object-ban-da-gan-bien-dung-chua%2F&amp;via=dp0613&amp;text=Javascript%20Object%20-%20B%E1%BA%A1n%20%C4%91%C3%A3%20g%C3%A1n%20bi%E1%BA%BFn%20%C4%91%C3%BAng%20ch%C6%B0a%3F" class="js-share twitter" title="Chia sẻ với Twitter" rel="nofollow"><svg class="u-icon" aria-hidden="true"><use xlink:href="http://dp0613.tk/assets/svg/svg-map.svg#twitter"/></svg> Twitter </a><a href="https://pinterest.com/pin/create/button/?url=http%3A%2F%2Fdp0613.tk%2Fjavascript-object-ban-da-gan-bien-dung-chua%2F&amp;media=undefined&amp;description=Javascript%20Object%20-%20B%E1%BA%A1n%20%C4%91%C3%A3%20g%C3%A1n%20bi%E1%BA%BFn%20%C4%91%C3%BAng%20ch%C6%B0a%3F" class="js-share pinterest" title="Chia sẻ với Pinterest" rel="nofollow"><svg class="u-icon" aria-hidden="true"><use xlink:href="http://dp0613.tk/assets/svg/svg-map.svg#pinterest"/></svg> Pinterest</a></div><div class="post__bio box"><img src="http://dp0613.tk/media/website/dp0613.png" alt="dp0613"><h3><a href="http://dp0613.tk/authors/dp0613/" title="dp0613">dp0613</a></h3><p>Đam mê lập trình web. Yêu database. Ghét framework. Hay vọc bảo mật. Lấy chia sẻ và kết bạn làm niềm vui.</p></div></footer></article><div class="comments box"><h3 class="box__title">Bình luận</h3><div class="comments"><div id="comment-loading" class="loading" style="display: none;"></div><div id="login-box" class="login" style="display: block;">Bạn nghĩ như thế nào về bài viết này?<br><button onclick="login()">Tham gia bình luận</button><div class="copyright">Chức năng này cần liên kết với tài khoản Google</div></div><div id="comment-box" class="comment-input" style="display: none;"><div class="avatar"><img id="user-avatar" src="" width="32" height="32"></div><div class="input"><textarea id="comment-content" onkeyup="autoSizing(this)" onkeydown="submitComment(event)" placeholder="Comment gõ vào đây :D"></textarea> <span>Gõ xong nhấn <kbd>Ctrl</kbd> + <kbd>Enter</kbd> để gửi.</span></div></div><ul id="comment-list" class="comment-list"></ul></div><script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script><script>// Initialize Firebase
+                  var config = {
+                    apiKey: "AIzaSyBSQ4FWB5zxIP25qDLvY955QXcsnM8XHVc",
+                    authDomain: "dev-web-with-me.firebaseapp.com",
+                    databaseURL: "https://dev-web-with-me.firebaseio.com",
+                    projectId: "dev-web-with-me",
+                    storageBucket: "dev-web-with-me.appspot.com",
+                    messagingSenderId: "348013493597"
+                  };
+                  firebase.initializeApp(config);</script><script defer="defer" src="http://dp0613.tk/assets/js/comment.js?v=3e591f87c96ce0494de450f5f3790d0c"></script></div></main><footer class="footer u-small"><div class="footer__copyright">/* Coding or doing an exception. */</div></footer></div><script>var loadCSSFiles = function() {
+            var links = ['https://fonts.googleapis.com/css?family=PT+Serif|Roboto:400,700&amp;subset=latin-ext'],
+                headElement = document.getElementsByTagName('head')[0],
+                linkElement, i;
+            for (i = 0; i < links.length; i++) {
+                linkElement = document.createElement('link');
+                linkElement.rel = 'stylesheet';
+                linkElement.href = links[i];
+                headElement.appendChild(linkElement);
+            }
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) {
+            raf(loadCSSFiles);
+        } else {
+            window.addEventListener('load', loadCSSFiles);
+        }</script><script defer="defer" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" aria-dropeffect="" crossorigin="anonymous"></script><script defer="defer" src="http://dp0613.tk/assets/js/scripts.min.js?v=d8604b7e55918d2b66d510d4a1cdbd4c"></script><script defer="defer" src="http://dp0613.tk/assets/js/prism.js?v=a52070c22521d42a4b1216d83b44f037"></script></body></html>
